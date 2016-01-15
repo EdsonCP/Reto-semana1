@@ -1,0 +1,145 @@
+#header{
+width: 73%;
+height: auto;
+background: #F6F908;
+border-radius: 15px;
+margin-bottom: -18px;
+}
+#header p{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-size:20px; 
+}
+.center{
+	text-align: center;
+	font-size:20px; 
+
+}
+/* parte del centro */
+#central{
+display: flex;
+}
+nav,main{
+
+border-radius: 15px;
+height: auto;
+}
+nav{
+	width: 25%;
+	margin-top: 10px;
+	background: #F95708;
+}
+main{
+	margin-top: 10px;
+	width: 46%;
+	margin-left: 1.5%;
+	background: #DAF0BB;
+	display: flex;
+	-webkit-flex-direction: column;
+
+	
+}
+/* parte inera del main*/
+#contenido{
+	width: 96%;
+	display: flex;
+	align-items:center;
+	-webkit-justify-content:center;
+	height: auto;
+	-webkit-flex-direction: column;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	background: #B5F8F1;
+	border-radius: 15px;
+
+}
+#contenido footer{
+	width: 95%;
+	margin-left: 3%;
+	margin-top: -5px;
+	background: #EDCE53;
+	display: flex;
+	-webkit-justify-content:center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+#article1{
+	width: 95%;
+	margin-top: 2%;
+	margin-left: 3%;
+	background: #EFC9F4;
+	border-radius:15px;
+	-webkit-flex-direction: column;
+	
+
+}
+#article1 h4{
+	width: 80%;
+	background: #F6E1B9;
+	border-radius: 10px;
+	display: flex;
+	-webkit-justify-content:center;
+	
+	margin-top: -10px;
+}
+#time{
+	width: 80%;
+	margin-top: -13px;
+	display: flex;
+	-webkit-justify-content:center;
+
+	background: #B9F6DE;
+	border-radius:15px;
+	margin-bottom: 4px;
+}
+/* fin del primer article*/
+/*comienzo del segundo article*/
+#contenido #contenido2{
+	width: 50%;
+	background: #AFF09B;
+	display: flex;
+	-webkit-justify-content:center;
+	align-items:center;
+	height: auto;
+margin-top: 5px;
+	-webkit-flex-direction: column;
+	border-radius: 15px;
+}
+#contenido2 #time1{
+	width: 60%;
+	display: flex;
+	-webkit-justify-content:center;
+	background: #F6B5F8;
+	border-radius:15px;
+	margin-top: 4px;
+	margin-bottom: -2px;
+	
+}
+
+/*fin del segundo article*/
+/*tercer article */
+#contenido3 p {
+	/*margin-top: 8px;
+	background: #AFF09B;
+	width: 50%;
+	border-radius: 15px;
+	text-align: center;*/
+	background: #AFF09B;
+	padding-left: 58px;
+	padding-right: 58px;
+	border-radius: 5px;
+}
+/*fin del tercer article*/
+footer{
+	width: 70%;
+	height: auto;
+	background: #EFBBF0;
+	border-radius: 15px;
+	margin-top: 10px;
+
+}
+footer p{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
